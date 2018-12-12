@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Cloud Cafe</title>
 </head>
+
 <body>
     <h1>Cloud Cafe</h1>
     <div class="content">
@@ -17,6 +19,20 @@
 
     </div>
 
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyB00RQVrmmkX-XdlyjCU3PhIWEcXrF_FOo",
+            authDomain: "firestore-6b0a3.firebaseapp.com",
+            databaseURL: "https://firestore-6b0a3.firebaseio.com",
+            projectId: "firestore-6b0a3",
+            storageBucket: "firestore-6b0a3.appspot.com",
+            messagingSenderId: "199124012764"
+        };
+        firebase.initializeApp(config);
+    </script>
     <script src="app.js"></script>
 </body>
+
 </html>
